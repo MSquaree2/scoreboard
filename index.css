@@ -1,0 +1,66 @@
+body {
+    margin: 0px auto;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+.container {
+    background: #1B244A;
+    width: 500px;
+    text-align: center;
+    margin: auto auto;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+
+.teams {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px auto 20px auto;
+}
+
+h3 {
+    color: #EEEEEE;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#score-home, #score-away {
+    background-color: black;
+    border-radius: 10px;
+    color: #F94F6D;
+    height: 70px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 65px;
+    padding: 10px;
+}
+
+button {
+    color: #9AABD8;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    background-color: #1B244A;
+    margin: 10px 0;
+}
+
+#start-btn {
+    color: #9AABD8;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    background-color: #1B244A;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: #5c8249;
+}
+
+#start-btn:hover {
+    background-color: #5c8249;
+}
